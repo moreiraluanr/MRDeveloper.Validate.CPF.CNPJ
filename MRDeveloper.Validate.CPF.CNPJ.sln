@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MRDeveloper.Validate.CPF.CN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestValidate", "TesteCpfValidate\TestValidate.csproj", "{406C7990-70AE-43BC-A900-2CBA32B3E6E5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validate.CPF.CNPJ", "Validate.CPF.CNPJ", "{0B5B87B4-ABC1-44D1-97A2-011177200B44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Validate.CPF.CNPJ.Tests", "Validate.CPF.CNPJ.Tests", "{694B3AD0-DFA9-48A2-8206-AD312431390E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01899D47-AE52-4EF2-8663-77C652117AF9} = {0B5B87B4-ABC1-44D1-97A2-011177200B44}
+		{406C7990-70AE-43BC-A900-2CBA32B3E6E5} = {694B3AD0-DFA9-48A2-8206-AD312431390E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF7BB91C-39D4-4659-906D-3D426C6ED4B6}
