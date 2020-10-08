@@ -37,7 +37,7 @@
             else
                 resto = 11 - resto;
             digito = digito + resto.ToString();
-            cpf = Number;
+            Number = cpf;
             return IsValid = cpf.EndsWith(digito);
         }
     }

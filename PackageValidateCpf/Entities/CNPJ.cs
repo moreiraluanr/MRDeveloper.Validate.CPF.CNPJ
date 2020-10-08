@@ -36,7 +36,7 @@
             else
                 resto = 11 - resto;
             digito = digito + resto.ToString();
-            cnpj = Number;
+            Number = cnpj;
             return IsValid = cnpj.EndsWith(digito);
         }
     }
